@@ -12,7 +12,7 @@ from pyspark.sql import SparkSession, SQLContext
 def main():
 
     # Add your Namespace
-    NAMESPACE = "idnbl64fptl6"
+    NAMESPACE = "<+++++NAMESPACE+++++>"
 
     # TODO: Set input and output paths.
     INPUT_PATH1 = "oci://raw-data@"+NAMESPACE+"/reviews_summary.csv"
